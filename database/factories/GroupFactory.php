@@ -18,7 +18,7 @@ class GroupFactory extends Factory
     {
         return [
             'title' => fake()->word(),
-            'description' => fake()->word()
+            'description' => fake()->text()
         ];
     }
 }

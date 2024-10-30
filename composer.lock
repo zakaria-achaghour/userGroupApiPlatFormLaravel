@@ -455,16 +455,16 @@
         },
         {
             "name": "api-platform/laravel",
-            "version": "v4.0.5",
+            "version": "v4.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/api-platform/laravel.git",
-                "reference": "5e6aa1feb13854b4bce19b5d396e340104e7a9e8"
+                "reference": "94afbe8c66b5701e165180e7fc168a96ffea99a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/api-platform/laravel/zipball/5e6aa1feb13854b4bce19b5d396e340104e7a9e8",
-                "reference": "5e6aa1feb13854b4bce19b5d396e340104e7a9e8",
+                "url": "https://api.github.com/repos/api-platform/laravel/zipball/94afbe8c66b5701e165180e7fc168a96ffea99a6",
+                "reference": "94afbe8c66b5701e165180e7fc168a96ffea99a6",
                 "shasum": ""
             },
             "require": {
@@ -563,9 +563,9 @@
                 "swagger"
             ],
             "support": {
-                "source": "https://github.com/api-platform/laravel/tree/v4.0.5"
+                "source": "https://github.com/api-platform/laravel/tree/v4.0.6"
             },
-            "time": "2024-10-22T05:48:23+00:00"
+            "time": "2024-10-25T13:28:30+00:00"
         },
         {
             "name": "api-platform/metadata",
