@@ -72,6 +72,16 @@ return [
 
     'swagger_ui' => [
         'enabled' => true,
+        'oauth' => [
+            'enabled' => true,
+            'type' => 'oauth2',
+            'flow' => 'authorizationCode',
+            'tokenUrl' => '<oauth_token_endpoint>',
+            'authorizationUrl' =>'<oauth_authorization_endpoint>',
+            'refreshUrl' => '<oauth_refresh_endpoint>',
+            'scopes' => ['scope' => 'Description of the scope'],
+            'pkce' => true,
+        ],
         //'apiKeys' => [
         //    'api' => [
         //        'type' => 'Bearer',
